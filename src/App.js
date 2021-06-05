@@ -1,6 +1,15 @@
+import { ConfigProvider } from 'antd';
+import viVN from 'antd/lib/locale/vi_VN';
+
+import AppContainer from './pages/App'
+
+import './App.css';
+
 function App () {
   return (
-    <h1>Hello</h1>
+    <ConfigProvider locale={viVN}>
+      <AppContainer />
+    </ConfigProvider>
   )
 }
 
