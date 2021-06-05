@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "cwd": "babelrc",
+      "root": ["./src"],
+      "alias": {
+        "firebase": "./firebase",
+        "actions":"./actions",
+        "components":"./components",
+        "helpers":"./helpers",
+        "reducers":"./reducers",
+        "pages":"./pages",
+        "services":"./services",
+        "stores":"./stores",
+      }
+    }]
+  ]
+}
