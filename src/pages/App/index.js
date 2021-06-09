@@ -10,7 +10,10 @@ import Header from './Header'
 import Footer from './Footer'
 import Content from './Content'
 
+import config from '../../config'
+
 const AppContainer = () => {
+  console.log("REACT_APP_API_URL", config.API_URL)
   return (
     <div className='grid wide'>
       <div className="page__container">
